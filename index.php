@@ -25,7 +25,7 @@ $result = $stmt->get_result();
 
     <!-- Header Menu -->
     <nav class="navbar">
-        <a href="dashboard.php">🏠 Home</a>
+        <a href="index.php">🏠 Home</a>
         <a href="logout.php" class="logout-btn">🚪 Logout</a>
     </nav>
 

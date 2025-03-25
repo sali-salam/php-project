@@ -24,6 +24,6 @@ if ($check_stmt->num_rows === 0) {
     $stmt->execute();
 }
 
-header("Location: dashboard.php");
+header("Location: index.php");
 exit();
 ?>

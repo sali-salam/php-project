@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST['movie_id'])) {
     $stmt->bind_param("ii", $movie_id, $user_id);
 
     if ($stmt->execute()) {
-        header("Location: dashboard.php"); // Redirect to refresh the dashboard
+        header("Location: index.php"); // Redirect to refresh the dashboard
         exit();
     } else {
         echo "Error deleting movie.";
